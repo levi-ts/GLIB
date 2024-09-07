@@ -1,0 +1,6 @@
+build/
+config/
+docs/
+node_modules/
+.prettierrc.json
+package-lock.json
