@@ -72,6 +72,21 @@ export class Loader {
     }
 
     /**
+     * Loads a json file from a given URL.
+     *
+     * @public
+     * @async
+     * @param {string} url The URL of the file to be loaded.
+     * @returns {Promise<string>} A promise containing the contents of the file.
+     */
+    public async loadJSON(url: string): Promise<string> {
+        const response = await fetch(url);
+        const json = await response.json();
+
+        return json;
+    }
+
+    /**
      * Loads a 2D texture from a given URL.
      *
      * @public
