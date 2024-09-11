@@ -38,8 +38,4 @@ void main()
     vec3 reflection = textureCube(environmentMap, R).rgb;
 
     gl_FragColor = vec4((ambient + diffuse + specular + reflection) * texture.rgb, texture.a * opacity);
-
-    //gl_FragColor = texture;
-    
-    // gl_FragColor = vec4(fragNormal, 1.0);
 }

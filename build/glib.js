@@ -729,19 +729,22 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Geometry: () => (/* reexport safe */ _geometries_Geometry__WEBPACK_IMPORTED_MODULE_4__.Geometry),
-/* harmony export */   Loader: () => (/* reexport safe */ _loaders_Loader__WEBPACK_IMPORTED_MODULE_5__.Loader),
-/* harmony export */   Material: () => (/* reexport safe */ _materials_Material__WEBPACK_IMPORTED_MODULE_10__.Material),
-/* harmony export */   Matrix4: () => (/* reexport safe */ _math_Matrix4__WEBPACK_IMPORTED_MODULE_11__.Matrix4),
+/* harmony export */   JSONLoader: () => (/* reexport safe */ _loaders_JSONLoader__WEBPACK_IMPORTED_MODULE_5__.JSONLoader),
+/* harmony export */   Loader: () => (/* reexport safe */ _loaders_Loader__WEBPACK_IMPORTED_MODULE_6__.Loader),
+/* harmony export */   Material: () => (/* reexport safe */ _materials_Material__WEBPACK_IMPORTED_MODULE_11__.Material),
+/* harmony export */   Matrix4: () => (/* reexport safe */ _math_Matrix4__WEBPACK_IMPORTED_MODULE_12__.Matrix4),
 /* harmony export */   Mesh: () => (/* reexport safe */ _core_Mesh__WEBPACK_IMPORTED_MODULE_1__.Mesh),
-/* harmony export */   Model: () => (/* reexport safe */ _models_Model__WEBPACK_IMPORTED_MODULE_13__.Model),
-/* harmony export */   ModelLoader: () => (/* reexport safe */ _loaders_ModelLoader__WEBPACK_IMPORTED_MODULE_6__.ModelLoader),
+/* harmony export */   Model: () => (/* reexport safe */ _models_Model__WEBPACK_IMPORTED_MODULE_16__.Model),
+/* harmony export */   ModelLoader: () => (/* reexport safe */ _loaders_ModelLoader__WEBPACK_IMPORTED_MODULE_7__.ModelLoader),
 /* harmony export */   PerspectiveCamera: () => (/* reexport safe */ _cameras_PerspectiveCamera__WEBPACK_IMPORTED_MODULE_0__.PerspectiveCamera),
 /* harmony export */   Renderer: () => (/* reexport safe */ _core_Renderer__WEBPACK_IMPORTED_MODULE_2__.Renderer),
 /* harmony export */   Scene: () => (/* reexport safe */ _core_Scene__WEBPACK_IMPORTED_MODULE_3__.Scene),
-/* harmony export */   TextLoader: () => (/* reexport safe */ _loaders_TextLoader__WEBPACK_IMPORTED_MODULE_7__.TextLoader),
-/* harmony export */   TextureCubeLoader: () => (/* reexport safe */ _loaders_TextureCubeLoader__WEBPACK_IMPORTED_MODULE_8__.TextureCubeLoader),
-/* harmony export */   TextureLoader: () => (/* reexport safe */ _loaders_TextureLoader__WEBPACK_IMPORTED_MODULE_9__.TextureLoader),
-/* harmony export */   Vector3: () => (/* reexport safe */ _math_Vector3__WEBPACK_IMPORTED_MODULE_12__.Vector3),
+/* harmony export */   TextLoader: () => (/* reexport safe */ _loaders_TextLoader__WEBPACK_IMPORTED_MODULE_8__.TextLoader),
+/* harmony export */   TextureCubeLoader: () => (/* reexport safe */ _loaders_TextureCubeLoader__WEBPACK_IMPORTED_MODULE_9__.TextureCubeLoader),
+/* harmony export */   TextureLoader: () => (/* reexport safe */ _loaders_TextureLoader__WEBPACK_IMPORTED_MODULE_10__.TextureLoader),
+/* harmony export */   Vector2: () => (/* reexport safe */ _math_Vector2__WEBPACK_IMPORTED_MODULE_13__.Vector2),
+/* harmony export */   Vector3: () => (/* reexport safe */ _math_Vector3__WEBPACK_IMPORTED_MODULE_14__.Vector3),
+/* harmony export */   Vector4: () => (/* reexport safe */ _math_Vector4__WEBPACK_IMPORTED_MODULE_15__.Vector4),
 /* harmony export */   fragmentShaderSource: () => (/* binding */ fragmentShaderSource),
 /* harmony export */   globalRegistry: () => (/* binding */ globalRegistry),
 /* harmony export */   vertexShaderSource: () => (/* binding */ vertexShaderSource)
@@ -751,17 +754,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_Renderer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./core/Renderer */ "./src/core/Renderer.ts");
 /* harmony import */ var _core_Scene__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./core/Scene */ "./src/core/Scene.ts");
 /* harmony import */ var _geometries_Geometry__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./geometries/Geometry */ "./src/geometries/Geometry.ts");
-/* harmony import */ var _loaders_Loader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loaders/Loader */ "./src/loaders/Loader.ts");
-/* harmony import */ var _loaders_ModelLoader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./loaders/ModelLoader */ "./src/loaders/ModelLoader.ts");
-/* harmony import */ var _loaders_TextLoader__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./loaders/TextLoader */ "./src/loaders/TextLoader.ts");
-/* harmony import */ var _loaders_TextureCubeLoader__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./loaders/TextureCubeLoader */ "./src/loaders/TextureCubeLoader.ts");
-/* harmony import */ var _loaders_TextureLoader__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./loaders/TextureLoader */ "./src/loaders/TextureLoader.ts");
-/* harmony import */ var _materials_Material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./materials/Material */ "./src/materials/Material.ts");
-/* harmony import */ var _math_Matrix4__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./math/Matrix4 */ "./src/math/Matrix4.ts");
-/* harmony import */ var _math_Vector3__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./math/Vector3 */ "./src/math/Vector3.ts");
-/* harmony import */ var _models_Model__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./models/Model */ "./src/models/Model.ts");
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_cameras_PerspectiveCamera__WEBPACK_IMPORTED_MODULE_0__, _core_Renderer__WEBPACK_IMPORTED_MODULE_2__, _core_Scene__WEBPACK_IMPORTED_MODULE_3__, _geometries_Geometry__WEBPACK_IMPORTED_MODULE_4__, _loaders_Loader__WEBPACK_IMPORTED_MODULE_5__, _loaders_TextureCubeLoader__WEBPACK_IMPORTED_MODULE_8__, _loaders_TextureLoader__WEBPACK_IMPORTED_MODULE_9__, _materials_Material__WEBPACK_IMPORTED_MODULE_10__]);
-([_cameras_PerspectiveCamera__WEBPACK_IMPORTED_MODULE_0__, _core_Renderer__WEBPACK_IMPORTED_MODULE_2__, _core_Scene__WEBPACK_IMPORTED_MODULE_3__, _geometries_Geometry__WEBPACK_IMPORTED_MODULE_4__, _loaders_Loader__WEBPACK_IMPORTED_MODULE_5__, _loaders_TextureCubeLoader__WEBPACK_IMPORTED_MODULE_8__, _loaders_TextureLoader__WEBPACK_IMPORTED_MODULE_9__, _materials_Material__WEBPACK_IMPORTED_MODULE_10__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+/* harmony import */ var _loaders_JSONLoader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loaders/JSONLoader */ "./src/loaders/JSONLoader.ts");
+/* harmony import */ var _loaders_Loader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./loaders/Loader */ "./src/loaders/Loader.ts");
+/* harmony import */ var _loaders_ModelLoader__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./loaders/ModelLoader */ "./src/loaders/ModelLoader.ts");
+/* harmony import */ var _loaders_TextLoader__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./loaders/TextLoader */ "./src/loaders/TextLoader.ts");
+/* harmony import */ var _loaders_TextureCubeLoader__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./loaders/TextureCubeLoader */ "./src/loaders/TextureCubeLoader.ts");
+/* harmony import */ var _loaders_TextureLoader__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./loaders/TextureLoader */ "./src/loaders/TextureLoader.ts");
+/* harmony import */ var _materials_Material__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./materials/Material */ "./src/materials/Material.ts");
+/* harmony import */ var _math_Matrix4__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./math/Matrix4 */ "./src/math/Matrix4.ts");
+/* harmony import */ var _math_Vector2__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./math/Vector2 */ "./src/math/Vector2.ts");
+/* harmony import */ var _math_Vector3__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./math/Vector3 */ "./src/math/Vector3.ts");
+/* harmony import */ var _math_Vector4__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./math/Vector4 */ "./src/math/Vector4.ts");
+/* harmony import */ var _models_Model__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./models/Model */ "./src/models/Model.ts");
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_cameras_PerspectiveCamera__WEBPACK_IMPORTED_MODULE_0__, _core_Renderer__WEBPACK_IMPORTED_MODULE_2__, _core_Scene__WEBPACK_IMPORTED_MODULE_3__, _geometries_Geometry__WEBPACK_IMPORTED_MODULE_4__, _loaders_Loader__WEBPACK_IMPORTED_MODULE_6__, _loaders_TextureCubeLoader__WEBPACK_IMPORTED_MODULE_9__, _loaders_TextureLoader__WEBPACK_IMPORTED_MODULE_10__, _materials_Material__WEBPACK_IMPORTED_MODULE_11__]);
+([_cameras_PerspectiveCamera__WEBPACK_IMPORTED_MODULE_0__, _core_Renderer__WEBPACK_IMPORTED_MODULE_2__, _core_Scene__WEBPACK_IMPORTED_MODULE_3__, _geometries_Geometry__WEBPACK_IMPORTED_MODULE_4__, _loaders_Loader__WEBPACK_IMPORTED_MODULE_6__, _loaders_TextureCubeLoader__WEBPACK_IMPORTED_MODULE_9__, _loaders_TextureLoader__WEBPACK_IMPORTED_MODULE_10__, _materials_Material__WEBPACK_IMPORTED_MODULE_11__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
+
+
 
 
 
@@ -806,16 +815,52 @@ const globalRegistry = {
  *
  * @type {string}
  */
-const vertexShaderSource = await new _loaders_Loader__WEBPACK_IMPORTED_MODULE_5__.Loader().loadText('../src/shaders/vertexShader.glsl');
+const vertexShaderSource = await new _loaders_Loader__WEBPACK_IMPORTED_MODULE_6__.Loader().loadText('../src/shaders/vertexShader.glsl');
 /**
  * The source code for the fragment shader.
  *
  * @type {string}
  */
-const fragmentShaderSource = await new _loaders_Loader__WEBPACK_IMPORTED_MODULE_5__.Loader().loadText('../src/shaders/fragmentShader.glsl');
+const fragmentShaderSource = await new _loaders_Loader__WEBPACK_IMPORTED_MODULE_6__.Loader().loadText('../src/shaders/fragmentShader.glsl');
 
 __webpack_async_result__();
 } catch(e) { __webpack_async_result__(e); } }, 1);
+
+/***/ }),
+
+/***/ "./src/loaders/JSONLoader.ts":
+/*!***********************************!*\
+  !*** ./src/loaders/JSONLoader.ts ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   JSONLoader: () => (/* binding */ JSONLoader)
+/* harmony export */ });
+/**
+ * The JSONLoader class is a utility class for loading json files from a given URL.
+ *
+ * @export
+ * @class JSONLoader
+ * @typedef {JSONLoader}
+ */
+class JSONLoader {
+    /**
+     * Loads a json file from a given URL.
+     *
+     * @public
+     * @async
+     * @param {string} url The URL of the file to be loaded.
+     * @returns {Promise<string>} A promise containing the contents of the file.
+     */
+    async load(url) {
+        const response = await fetch(url);
+        const json = await response.json();
+        return json;
+    }
+}
+
 
 /***/ }),
 
@@ -1811,6 +1856,132 @@ class Matrix4 extends Float32Array {
 
 /***/ }),
 
+/***/ "./src/math/Vector2.ts":
+/*!*****************************!*\
+  !*** ./src/math/Vector2.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Vector2: () => (/* binding */ Vector2)
+/* harmony export */ });
+/**
+ * 2D vector class.
+ *
+ * @export
+ * @class Vector2
+ * @typedef {Vector2}
+ * @extends {Float32Array}
+ */
+class Vector2 extends Float32Array {
+    /**
+     * Creates an instance of Vector2.
+     *
+     * @constructor
+     * @param {number} [x=0]
+     * @param {number} [y=0]
+     */
+    constructor(x = 0, y = 0) {
+        super(2);
+        this[0] = x;
+        this[1] = y;
+    }
+    /**
+     * Gets the magnitude of the vector.
+     *
+     * @public
+     * @returns {number}
+     */
+    magnitude() {
+        return Math.sqrt(this[0] ** 2 + this[1] ** 2);
+    }
+    /**
+     * Normalizes the vector.
+     *
+     * @public
+     * @returns {this}
+     */
+    normalize() {
+        const mag = this.magnitude();
+        if (mag > 0) {
+            this[0] /= mag;
+            this[1] /= mag;
+        }
+        return this;
+    }
+    /**
+     * Adds another vector to this vector.
+     *
+     * @public
+     * @param {Vector2} other
+     * @returns {this}
+     */
+    add(other) {
+        this[0] += other[0];
+        this[1] += other[1];
+        return this;
+    }
+    /**
+     * Subtracts another vector from this vector.
+     *
+     * @public
+     * @param {Vector2} other
+     * @returns {this}
+     */
+    subtract(other) {
+        this[0] -= other[0];
+        this[1] -= other[1];
+        return this;
+    }
+    /**
+     * Scales this vector by a scalar value.
+     *
+     * @public
+     * @param {number} scalar
+     * @returns {this}
+     */
+    scale(scalar) {
+        this[0] *= scalar;
+        this[1] *= scalar;
+        return this;
+    }
+    /**
+     * Calculates the dot product of this vector and another vector.
+     *
+     * @public
+     * @param {Vector2} other
+     * @returns {number}
+     */
+    dot(other) {
+        return this[0] * other[0] + this[1] * other[1];
+    }
+    /**
+     * Divides this vector by a scalar value.
+     *
+     * @public
+     * @param {number} scalar
+     * @returns {this}
+     */
+    divide(scalar) {
+        if (scalar !== 0) {
+            this[0] /= scalar;
+            this[1] /= scalar;
+        }
+        else {
+            throw new Error('Cannot divide by zero');
+        }
+        return this;
+    }
+}
+Vector2.prototype.set = function (x, y) {
+    this[0] = x;
+    this[1] = y ?? this[1];
+};
+
+
+/***/ }),
+
 /***/ "./src/math/Vector3.ts":
 /*!*****************************!*\
   !*** ./src/math/Vector3.ts ***!
@@ -1953,6 +2124,148 @@ Vector3.prototype.set = function (x, y, z) {
     this[0] = x;
     this[1] = y ?? this[1];
     this[2] = z ?? this[2];
+};
+
+
+/***/ }),
+
+/***/ "./src/math/Vector4.ts":
+/*!*****************************!*\
+  !*** ./src/math/Vector4.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Vector4: () => (/* binding */ Vector4)
+/* harmony export */ });
+/**
+ * A 4D vector class.
+ *
+ * @export
+ * @class Vector4
+ * @typedef {Vector4}
+ * @extends {Float32Array}
+ */
+class Vector4 extends Float32Array {
+    /**
+     * Creates an instance of Vector4.
+     *
+     * @constructor
+     * @param {number} [x=0] The x-component of the vector.
+     * @param {number} [y=0] The y-component of the vector.
+     * @param {number} [z=0] The z-component of the vector.
+     * @param {number} [w=0] The w-component of the vector.
+     */
+    constructor(x = 0, y = 0, z = 0, w = 0) {
+        super(4);
+        this[0] = x;
+        this[1] = y;
+        this[2] = z;
+        this[3] = w;
+    }
+    /**
+     * Calculates the magnitude of the vector.
+     *
+     * @public
+     * @returns {number} The magnitude of the vector.
+     */
+    magnitude() {
+        return Math.sqrt(this[0] ** 2 + this[1] ** 2 + this[2] ** 2 + this[3] ** 2);
+    }
+    /**
+     * Normalizes the vector.
+     *
+     * @public
+     * @returns {this} The normalized vector.
+     */
+    normalize() {
+        const mag = this.magnitude();
+        if (mag > 0) {
+            this[0] /= mag;
+            this[1] /= mag;
+            this[2] /= mag;
+            this[3] /= mag;
+        }
+        return this;
+    }
+    /**
+     * Adds another vector to this vector.
+     *
+     * @public
+     * @param {Vector4} other The vector to add.
+     * @returns {this} The resulting vector.
+     */
+    add(other) {
+        this[0] += other[0];
+        this[1] += other[1];
+        this[2] += other[2];
+        this[3] += other[3];
+        return this;
+    }
+    /**
+     * Subtracts another vector from this vector.
+     *
+     * @public
+     * @param {Vector4} other The vector to subtract.
+     * @returns {this} The resulting vector.
+     */
+    subtract(other) {
+        this[0] -= other[0];
+        this[1] -= other[1];
+        this[2] -= other[2];
+        this[3] -= other[3];
+        return this;
+    }
+    /**
+     * Scales the vector by a scalar value.
+     *
+     * @public
+     * @param {number} scalar The scalar to scale by.
+     * @returns {this} The scaled vector.
+     */
+    scale(scalar) {
+        this[0] *= scalar;
+        this[1] *= scalar;
+        this[2] *= scalar;
+        this[3] *= scalar;
+        return this;
+    }
+    /**
+     * Calculates the dot product of this vector and another vector.
+     *
+     * @public
+     * @param {Vector4} other The vector to dot with.
+     * @returns {number} The dot product of the two vectors.
+     */
+    dot(other) {
+        return this[0] * other[0] + this[1] * other[1] + this[2] * other[2] + this[3] * other[3];
+    }
+    /**
+     * Divides the vector by a scalar value.
+     *
+     * @public
+     * @param {number} scalar The scalar to divide by.
+     * @returns {this} The divided vector.
+     */
+    divide(scalar) {
+        if (scalar !== 0) {
+            this[0] /= scalar;
+            this[1] /= scalar;
+            this[2] /= scalar;
+            this[3] /= scalar;
+        }
+        else {
+            throw new Error('Cannot divide by zero');
+        }
+        return this;
+    }
+}
+Vector4.prototype.set = function (x, y, z, w) {
+    this[0] = x;
+    this[1] = y ?? this[1];
+    this[2] = z ?? this[2];
+    this[3] = w ?? this[3];
 };
 
 
@@ -2329,6 +2642,7 @@ function toRadian(degrees) {
 /******/ var __webpack_exports__ = __webpack_require__("./src/index.ts");
 /******/ __webpack_exports__ = await __webpack_exports__;
 /******/ var __webpack_exports__Geometry = __webpack_exports__.Geometry;
+/******/ var __webpack_exports__JSONLoader = __webpack_exports__.JSONLoader;
 /******/ var __webpack_exports__Loader = __webpack_exports__.Loader;
 /******/ var __webpack_exports__Material = __webpack_exports__.Material;
 /******/ var __webpack_exports__Matrix4 = __webpack_exports__.Matrix4;
@@ -2341,11 +2655,13 @@ function toRadian(degrees) {
 /******/ var __webpack_exports__TextLoader = __webpack_exports__.TextLoader;
 /******/ var __webpack_exports__TextureCubeLoader = __webpack_exports__.TextureCubeLoader;
 /******/ var __webpack_exports__TextureLoader = __webpack_exports__.TextureLoader;
+/******/ var __webpack_exports__Vector2 = __webpack_exports__.Vector2;
 /******/ var __webpack_exports__Vector3 = __webpack_exports__.Vector3;
+/******/ var __webpack_exports__Vector4 = __webpack_exports__.Vector4;
 /******/ var __webpack_exports__fragmentShaderSource = __webpack_exports__.fragmentShaderSource;
 /******/ var __webpack_exports__globalRegistry = __webpack_exports__.globalRegistry;
 /******/ var __webpack_exports__vertexShaderSource = __webpack_exports__.vertexShaderSource;
-/******/ export { __webpack_exports__Geometry as Geometry, __webpack_exports__Loader as Loader, __webpack_exports__Material as Material, __webpack_exports__Matrix4 as Matrix4, __webpack_exports__Mesh as Mesh, __webpack_exports__Model as Model, __webpack_exports__ModelLoader as ModelLoader, __webpack_exports__PerspectiveCamera as PerspectiveCamera, __webpack_exports__Renderer as Renderer, __webpack_exports__Scene as Scene, __webpack_exports__TextLoader as TextLoader, __webpack_exports__TextureCubeLoader as TextureCubeLoader, __webpack_exports__TextureLoader as TextureLoader, __webpack_exports__Vector3 as Vector3, __webpack_exports__fragmentShaderSource as fragmentShaderSource, __webpack_exports__globalRegistry as globalRegistry, __webpack_exports__vertexShaderSource as vertexShaderSource };
+/******/ export { __webpack_exports__Geometry as Geometry, __webpack_exports__JSONLoader as JSONLoader, __webpack_exports__Loader as Loader, __webpack_exports__Material as Material, __webpack_exports__Matrix4 as Matrix4, __webpack_exports__Mesh as Mesh, __webpack_exports__Model as Model, __webpack_exports__ModelLoader as ModelLoader, __webpack_exports__PerspectiveCamera as PerspectiveCamera, __webpack_exports__Renderer as Renderer, __webpack_exports__Scene as Scene, __webpack_exports__TextLoader as TextLoader, __webpack_exports__TextureCubeLoader as TextureCubeLoader, __webpack_exports__TextureLoader as TextureLoader, __webpack_exports__Vector2 as Vector2, __webpack_exports__Vector3 as Vector3, __webpack_exports__Vector4 as Vector4, __webpack_exports__fragmentShaderSource as fragmentShaderSource, __webpack_exports__globalRegistry as globalRegistry, __webpack_exports__vertexShaderSource as vertexShaderSource };
 /******/ 
 
 //# sourceMappingURL=glib.js.map

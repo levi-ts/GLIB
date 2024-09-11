@@ -13,11 +13,6 @@ uniform mat4 matProj;
 uniform mat4 matView;
 uniform mat4 matWorld;
 
-/*
-uniform vec3 lightPos;
-uniform vec3 viewPos;
-*/
-
 void main()
 {
     vec3 worldPos = (matWorld * vec4(pos, 1.0)).xyz;

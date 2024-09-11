@@ -3,6 +3,7 @@ import { Mesh } from './core/Mesh';
 import { Renderer } from './core/Renderer';
 import { Scene } from './core/Scene';
 import { Geometry } from './geometries/Geometry';
+import { JSONLoader } from './loaders/JSONLoader';
 import { Loader } from './loaders/Loader';
 import { ModelLoader } from './loaders/ModelLoader';
 import { TextLoader } from './loaders/TextLoader';
@@ -10,10 +11,12 @@ import { TextureCubeLoader } from './loaders/TextureCubeLoader';
 import { TextureLoader } from './loaders/TextureLoader';
 import { Material } from './materials/Material';
 import { Matrix4 } from './math/Matrix4';
+import { Vector2 } from './math/Vector2';
 import { Vector3 } from './math/Vector3';
+import { Vector4 } from './math/Vector4';
 import { Model } from './models/Model';
 
-export { Scene, PerspectiveCamera, Renderer, Loader, ModelLoader, TextLoader, TextureLoader, TextureCubeLoader, Model, Geometry, Material, Mesh, Matrix4, Vector3 };
+export { Scene, PerspectiveCamera, Renderer, Loader, ModelLoader, TextLoader, TextureLoader, TextureCubeLoader, JSONLoader, Model, Geometry, Material, Mesh, Matrix4, Vector2, Vector3, Vector4 };
 
 /**
  * A global registry which keeps track of all the objects in the scene.
